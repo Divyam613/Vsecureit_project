@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald:wght@500&family=Roboto&display=swap');
+.image_card2 {
+    background: #16256d;
+    /* padding: 28px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    height: 255px;
+    width: 231px;
+    /* gap: 20px  ; */
+}
+
+.imag1 {
+    border-radius: 5px;
+    transition: transform 0.6s;
+    margin: 0 0 20px 0  ;
+}
+
+.imag1:hover {
+    padding: 15px 0 0 0 ;
+}
+
+.img-title{
+    display: flex;
+    flex-direction: column;
+}
+.completion{
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}

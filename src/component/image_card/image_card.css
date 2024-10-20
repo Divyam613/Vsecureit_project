@@ -1,0 +1,18 @@
+.image-card {
+    background: #16256d;
+    padding: 28px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.imag {
+    border-radius: 5px;
+    transition: transform 0.6s;
+}
+
+.imag:hover {
+    transform: scale(1.3);
+}
+

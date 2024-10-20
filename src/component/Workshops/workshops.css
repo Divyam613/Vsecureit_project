@@ -1,0 +1,66 @@
+.workshop {
+    background-color: rgb(9, 22, 80);
+    padding-top: 10px;
+    padding-bottom: 120px;
+    background-image: url("../../../public/assets/service-dots-img.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.workshop_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.work_top {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.headi_pad {
+    margin-bottom: 10px;
+}
+
+
+.left_card {
+    position: relative;
+    transition: 0.3s;
+}
+
+.right_card {
+    position: relative;
+}
+
+@keyframes left_card {
+    0% {
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+.des_img {
+    transition: all .4s;
+}
+
+.des_about {
+    position: absolute;
+    bottom: 35px;
+    left: 44px;
+    z-index: 1;
+    color: white;
+}
+
+.description_blog {
+    margin: 10px 0;
+}
+
+.des_img:hover {
+    /* position: absolute; */
+    rotate: 10deg;
+}

@@ -1,0 +1,42 @@
+.row1{
+    display: flex;
+    margin-top: 40px;
+    margin: 0 100PX;
+    padding-right: 60px;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.backgrnd{
+    background-image: url("../../../public/assets/dots-img.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+.container1{
+    width: 100%;
+    padding: 70px 14px 70px 10px;
+}
+.image{
+        size: 580*498;
+        width: 580px;
+        height: 490px;
+}
+
+.who_we{
+    font-size: 24px;
+    color: white;
+}
+.para_about{
+    color: rgb(124,140,206);
+}
+.we{
+    color:  rgb(9,175,239);
+}
+.title{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: 48px;
+}
+.list{
+    padding-top: 25px;
+}
