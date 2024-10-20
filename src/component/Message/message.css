@@ -5,8 +5,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    padding: 120px 250px;
+
 }
 
 .message_title{
     color: white;
+    font: 60px 'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 0 150px;
+    /* margin: 0 0 30px; */
 }
+

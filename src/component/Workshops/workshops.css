@@ -27,13 +27,14 @@
 .left_card {
     position: relative;
     transition: 0.3s;
+    animation: mymove 0.4s ;
 }
 
 .right_card {
     position: relative;
 }
 
-@keyframes left_card {
+@keyframes mymove {
     0% {
         transform: translateX(-2000px);
     }
