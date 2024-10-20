@@ -2,8 +2,11 @@ import "./message.css"
 
 function message(){
     return(
-        <div>
-            <h1>message</h1>
+        <div className="message_cyber">
+            <h1 className="message_title">Ready To Get Started? We're Here To Help.</h1>
+            <button>
+                Let's Talk
+            </button>
         </div>
     )}
 

@@ -1,0 +1,12 @@
+.message_cyber{
+    background-image: url("../../../public/assets/overly-img.png");
+    background-color: #122062;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.message_title{
+    color: white;
+}

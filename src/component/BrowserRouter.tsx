@@ -1,7 +1,8 @@
 import {createBrowserRouter} from "react-router-dom";
-import ServicesSection from "./services/service";
+import ServicesSection from "../modules/services/service";
 import FeaturesSection from "./feature";
 import Home from "./Home";
+import About from "../modules/about/about";
 
 const router = createBrowserRouter([
 {
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
     element:<FeaturesSection/>
 },
 {
-    path: "/ServicesSection",
+    path: "/Services",
     element:<ServicesSection/>
+},
+{
+    path: "/about",
+    element:<About/>
 }
 ])
 
