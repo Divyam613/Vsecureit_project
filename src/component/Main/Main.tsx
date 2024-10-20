@@ -10,6 +10,8 @@ import Statics from '../statics/statics';
 import Workshop from '../Workshops/Workshops';
 import Enquiry from '../Enquiry/enquiry';
 import CEO from '../CEO/CEO';
+import Message from '../Message/message';
+
 
 const Main = () => {
 
@@ -45,6 +47,7 @@ const Main = () => {
       <ServicesSection/>
       <Statics/>
       <Workshop/>
+      <Message/>
       <Enquiry/>
       <CEO/>
     </div>
