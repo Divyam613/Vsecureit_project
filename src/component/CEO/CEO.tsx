@@ -15,13 +15,20 @@ function CEO() {
                 </div>
                 <div className="tushar_sharma">
                     <ul>
-                        <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem qui reprehenderit placeat, labore esse eos maxime. Nesciunt labore hic eius dolorem quia totam. Tempore, unde. Facere quia quam architecto odit!</li>
-                        <li>Ad, repudiandae blanditiis nemo doloremque eveniet nesciunt excepturi tempore similique perspiciatis ipsa rem repellat? Sequi, ex. Qui, maiores facere rem laboriosam magnam saepe reiciendis reprehenderit amet debitis omnis iste tenetur!</li>
-                        <li>Veniam dolore amet labore accusamus hic sunt atque placeat non voluptatem quam eius sapiente sequi rem, possimus quas incidunt? Pariatur libero in incidunt vero quidem expedita quibusdam ipsum nostrum cupiditate.</li>
-                        <li>Facilis libero aut voluptate necessitatibus hic rerum esse, maiores consequuntur voluptates repudiandae iste autem itaque commodi reprehenderit eligendi similique. Nobis obcaecati quod enim mollitia tempora amet ipsum ratione placeat id!</li>
-                        <li>Impedit maxime enim nesciunt! Consectetur iusto nam eum sequi dolores sapiente praesentium dolorum! Sed ex sunt minima fugiat illum atque magni dolor, iste incidunt fugit. Minima error porro necessitatibus iste?</li>
-                        <li>Soluta quis non rem, necessitatibus aperiam, illum mollitia dignissimos exercitationem id veniam culpa reiciendis quos deserunt aliquid voluptate, molestiae maxime optio dolorum expedita aliquam esse maiores corporis quisquam ab! Beatae!</li>
-                        <li>Error reiciendis animi perferendis veniam nulla necessitatibus eum ratione ullam. Cupiditate nulla at vitae neque perspiciatis eveniet facilis sapiente omnis debitis, ducimus dolore, repudiandae eligendi quo tempore deleniti illo veniam!</li>
+                        <li>Tushar Sharma is a technical postgraduate from IP University, Delhi.</li>
+                        <li>He is a lawyer and researcher specialized in Cyber Security.</li>
+                        <li>He is conducting online and offline workshops, conferences, Q&As & talks in different schools, colleges, and on different platforms to aware the youth and common man about cyber security.</li>
+                        <li> In the last 8 years, he has trained more than 9000 students PAN india & the numbers are still growing.</li>
+                        <li>He has also supported the administration as an advisor to solve cybercrime cases.</li>
+                        <li>He has written & presented more than one & half dozen research papers at national conferences & international conferences.</li>
+                        <li>He is one of the expert panel members of the FIB(Forensics Intelligence Bureau).</li>
+                        <li>He is associated with the Cyber Peace Foundation, working as Cyber Peace Corps.                        </li>
+                        <li>He is a Certified Cyber Hygiene Practitioner. & an active member of ISACA.</li>
+                        <li>Tushar is also a Cyber Volunteer registered on</li>
+                        <li>the National Cybercrime Reporting Portal(under Govt of india- Ministry of Home Affairs).</li>
+                        <li>He is also associated with various govt bodies & NGOs working for Cyber & Social causes.</li>
+                        <li>He is also awarded with "VisheshSamman" by Bharat Vikas Parishad, Ghaziabad branch.</li>
+                        <li>Also awarded by kotak life with Pacific award for promoting and creating cyber awareness on cyber security through CSR sessions</li>
                         {/* <li>Itaque quia molestiae dolorum asperiores doloremque libero. Laborum nemo nam architecto quia sed, odio iusto voluptas eius. Beatae, deleniti! Earum placeat, quasi culpa non perferendis nulla laborum dolor labore esse.</li>
                     <li>Culpa accusantium ipsa laborum delectus minus excepturi quaerat tempora vel dicta laudantium quia, minima repellendus! Laborum optio corrupti ex consequatur id sunt, voluptatibus, dolorem dolor cupiditate neque dolore. Ea, eaque!</li>
                     <li>Dicta nesciunt repellendus vero consectetur nisi odit aliquid pariatur accusantium neque architecto, aperiam dolor distinctio placeat doloremque iure vel ad! Hic voluptate vel voluptatum, nam dolorem atque exercitationem autem! Porro.</li> */}

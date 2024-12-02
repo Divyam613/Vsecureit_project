@@ -12,8 +12,11 @@ import Enquiry from '../Enquiry/enquiry';
 import CEO from '../CEO/CEO';
 import Message from '../Message/message';
 import Footer from '../footer/footer';
+import { useNavigate } from 'react-router-dom';
 
 const Main = () => {
+
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -29,10 +32,10 @@ const Main = () => {
                 Master the art of digital protection with our top-tier computer and cyber security training.
               </span>
               <div className='buttons'>
-                <button className='btn1'>
-                  Get sterted
+                <button className='btn1' onClick={() => navigate('/about')}>
+                  Get started
                 </button>
-                <button className='btn2'>
+                <button className='btn2' onClick={() => navigate('/contact')}>
                   Contact Us
                 </button>
               </div>

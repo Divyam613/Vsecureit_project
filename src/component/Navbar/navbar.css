@@ -10,22 +10,36 @@
   justify-content: space-around;
   margin:  0 186px;
   padding: 0px 50px 0 0;
+  height: 140px;
   display: flex;
   gap: 60px;
 }
 .navbar-list {
   list-style-type: none;
-    padding: 0; 
+    padding: 25px 0 0 0; 
     margin: 0; 
     display: flex;
     align-items: center;
-  }
+ }
   a{
     font-size: 18px;
     color: white;
   }
 .navbar-list{
   gap: 45px;
+}
+.nav-link{
+  text-decoration: none;
+}
+
+.navbar-brand{
+  /* top : 0; */
+  height: 73px;
+  width: 325px;
+}
+.img-fluid{
+  height: 120px;
+  top: 0;
 }
 
 .btn{
@@ -36,4 +50,7 @@
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
   border: 0;
+}
+.nav-link:hover{
+  color: #0AD3EF;
 }
