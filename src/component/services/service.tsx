@@ -93,9 +93,9 @@ const ServicesSection = () => {
           </div>
         </div>
         <div className='right_background div_root'>
-          <img src="./assests/service-right-bg-img.png" alt="" />
+          <img src="./assests/service-right-bg-img.png" alt="service-box" />
           <div className="right_side">
-            <img src="./assets/service-box-img.png" alt="" />
+            <img src="./assets/service-box-img.png" alt="service-box" />
             <h3 className='heading_bg_upper'>Creative Security Solutions</h3>
             <h3 className='title_bg_upper'>Quos dolores et quas molestias excepturi sint occaecati cuiditate non provident.</h3>
             <a href='google.com'>Readmore</a>

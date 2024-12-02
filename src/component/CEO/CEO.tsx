@@ -7,10 +7,10 @@ function CEO() {
             <div className="prof">
                 <div className="profile_head">
                     <div className="profile_img">
-                        <img src="./assets/tushar sharma.jpg" />
+                        <img src="./assets/tushar sharma.jpg" alt="tushar sharma" />
                     </div>
                     <div className="profile_name">
-                        <span>Tushar Sahrma</span>
+                        <span>Tushar Sharma</span>
                     </div>
                 </div>
                 <div className="tushar_sharma">

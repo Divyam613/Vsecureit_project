@@ -6,7 +6,7 @@ function footer() {
             <div className="footer_hero_inner">
                 <div className="footer">
                     <div className="footer_logo">
-                        <img src="./assets/logo-img.png" alt="" />
+                        <img src="./assets/logo-img.png" alt="logo" />
                     </div>
                     <p className="txt footer_desc">Welcome to V-SecurIT Solutions, the leading computer and cyber security training provider in Delhi, Bharat. With a team of experienced professionals, we are committed to delivering high-quality training and education to help individuals and organizations stay ahead of cyber threats.
                     </p>

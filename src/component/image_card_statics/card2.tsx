@@ -11,7 +11,7 @@ const ImageCard2: React.FC<ImageCardProps> = ({ image,  title, description }) =>
     return(
         <div className="image_card2 img-title">
             
-            <img  src={image} alt="" className='imag1'/>
+            <img  src={image} alt="card_image" className='imag1'/>
             <span className='completion'>{title}</span>
             <span className='txt'>{description}</span>
         </div>
