@@ -31,7 +31,7 @@ function Statics() {
                     {
                         data.map((item, index) => {
                             return (
-                                <ImageCard2 
+                                <ImageCard2
                                     image={item.image}
                                     title={item.title}
                                     description={item.description} />
@@ -42,7 +42,10 @@ function Statics() {
                 <div className="statics_right child_div" >
                     <h5 className="headi">STATISTICS</h5>
                     <h1 className="titl">Our Large Acheivements in Cyber Security</h1>
-                    <span className="txt">Repudiandae irure dolor in reprehenderit in voluptate velit esse dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum incidunt ut labore et dolore magnam.</span>
+                    <span className="txt">Advanced Threat Detection Systems: Successfully implemented AI-driven solutions that detect and neutralize cyber threats in real-time.
+                        Global Risk Mitigation: Secured critical infrastructures for Fortune 500 companies, reducing cyber attack risks by over 80%.
+                        Innovative Encryption Protocols: Pioneered next-gen encryption methods to safeguard sensitive data across industries.
+                        Comprehensive Security Training: Trained over 10,000 professionals in cyber defense strategies, strengthening global IT resilience.</span>
                     <button className="btn_spcl">
                         <Link to="/contact">Get Started</Link>
                     </button>

@@ -2,16 +2,13 @@ import "./footer.css"
 
 function footer() {
     return (
-        <div  className="footer_hero">
+        <div className="footer_hero">
             <div className="footer_hero_inner">
                 <div className="footer">
                     <div className="footer_logo">
-                    <img   src="./assets/logo-img.png" alt="" />
+                        <img src="./assets/logo-img.png" alt="logo" />
                     </div>
-                    <p className="txt footer_desc">Deleniti atque corrupti quos dolores et quas
-                        molestias excepturi sint occaecati rupiditate
-                        non provident, similique sunt in culpa qui
-                        officia deserunt mollitia animi..
+                    <p className="txt footer_desc">Welcome to V-SecurIT Solutions, the leading computer and cyber security training provider in Delhi, Bharat. With a team of experienced professionals, we are committed to delivering high-quality training and education to help individuals and organizations stay ahead of cyber threats.
                     </p>
                 </div>
                 <div className="footer">
@@ -41,7 +38,7 @@ function footer() {
                                 </a>
                             </li>
                             <li className="">
-                                <a href="https://html.designingmedia.com/Cyber-Chip/contact.html"className="txt footer_anc">
+                                <a href="https://html.designingmedia.com/Cyber-Chip/contact.html" className="txt footer_anc">
                                     Contact us
                                 </a>
                             </li>
@@ -80,10 +77,10 @@ function footer() {
                     </div>
                     <div className="weight-footer-item-form">
                         <div className="footer_input">
-                            <input  className="inp_ftr txt"  type="email" placeholder="Enter your email" >
+                            <input className="inp_ftr txt" type="email" placeholder="Enter your email" >
                             </input>
                             <button className="border-0" value="">
-                                <img src="./assets/submit-img.png" alt="submit-img" className="img-fluid" />
+                                <img src="./assets/submit-img.png" alt="submit-img" />
                             </button>
                         </div>
                         <div className="form-group">
@@ -93,9 +90,9 @@ function footer() {
                     </div>
                 </div>
             </div>
-            <hr className="hori_line"/>
+            <hr className="hori_line" />
             <div className="ftr_btm txt">
-            Copyright Cyberchip © 2022. All Rights Reserved.
+                Copyright Cyberchip © 2022. All Rights Reserved.
             </div>
         </div>
     )

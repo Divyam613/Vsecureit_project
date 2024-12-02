@@ -6,7 +6,7 @@ import Aboutus from '../../component/About_Us/about';
 import CEO from '../../component/CEO/CEO';
 import Workcard from '../../component/work_card/work_card';
 import ImageCard2 from '../../component/image_card_statics/card2';
-
+import Footer from '../../component/footer/footer';
 
 
 const data_work = [
@@ -73,7 +73,7 @@ const about = () => {
                     <Navbar />
                     <div className='about_para'>
                         <h1 className='para_h1 '>About us</h1>
-                        <h4 className='para_h4'>Dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                        <h4 className='para_h4'>We deliver expert cybersecurity solutions to safeguard your digital assets. Trust us to protect your business from evolving threats with advanced strategies.</h4>
                     </div>
                     <div className="image_card1">
                         {
@@ -106,6 +106,7 @@ const about = () => {
             </div>
 
             <CEO />
+            <Footer/>
         </div>
     );
 };
