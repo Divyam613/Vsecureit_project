@@ -57,10 +57,7 @@ a {
   color: #0AD3EF;
 }
 
-.mobileview{
-  /* right: 0px; */
-  /* left: 0px; */
-}
+
 /* Mobile styles */
 @media (max-width: 767px) {
   .navbar {
