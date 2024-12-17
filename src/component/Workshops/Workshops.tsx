@@ -10,7 +10,7 @@ function workshop() {
             <div className="workshop_card">
                 <div className="left_card">
                     <div className="des_img">
-                        <img src="./assets/blog-post-img1.png" alt="blog-post" />
+                        <img src="./assets/blog-post-img1.png" alt="blog-post" className="media"/>
                     </div>
                     <div className="des_about">
                         <div>Trend in Design</div>
@@ -20,7 +20,7 @@ function workshop() {
                 </div>
                 <div className="right_card">
                     <div className="des_img">
-                        <img src="./assets/blog-post-img2.png" alt="blog-post" />
+                        <img src="./assets/blog-post-img2.png" alt="blog-post" className="media"/>
                     </div>
                     <div className="des_about">
                         <div>Trend in Design</div>

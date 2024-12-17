@@ -1,4 +1,4 @@
-.message_cyber{
+.message_cyber {
     background-image: url("../../../public/assets/overly-img.png");
     background-color: #122062;
     background-position: center;
@@ -6,10 +6,9 @@
     background-size: cover;
     text-align: center;
     padding: 120px 250px;
-
 }
 
-.message_title{
+.message_title {
     color: white;
     font: 60px 'Roboto', sans-serif;
     font-weight: bolder;
@@ -17,3 +16,28 @@
     /* margin: 0 0 30px; */
 }
 
+/* Mobile styles */
+@media (max-width: 767px) {
+    .message_cyber {
+        padding: 60px 20px; /* Reduce padding for mobile */
+        background-size: 100% 100%; /* Adjust background size */
+    }
+
+    .message_title {
+        font-size: 36px; /* Adjust font size for mobile */
+        padding: 0 20px; /* Reduce padding for mobile */
+    }
+}
+
+/* Laptop styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .message_cyber {
+        padding: 80px 100px; /* Adjust padding for laptops */
+        background-size: cover; /* Adjust background size */
+    }
+
+    .message_title {
+        font-size: 48px; /* Adjust font size for laptops */
+        padding: 0 50px; /* Adjust padding for laptops */
+    }
+}

@@ -6,12 +6,12 @@ function footer() {
             <div className="footer_hero_inner">
                 <div className="footer">
                     <div className="footer_logo">
-                        <img src="./assets/logo-img.png" alt="logo" />
+                        <img src="./assets/Vsec_logo_white.png" alt="logo" className=" footer_sym"/>
                     </div>
                     <p className="txt footer_desc">Welcome to V-SecurIT Solutions, the leading computer and cyber security training provider in Delhi, Bharat. With a team of experienced professionals, we are committed to delivering high-quality training and education to help individuals and organizations stay ahead of cyber threats.
                     </p>
                 </div>
-                <div className="footer">
+                <div className="footer about_nav">
                     <div className="footer_title">
                         <h3>About Us</h3>
                     </div>
@@ -52,8 +52,7 @@ function footer() {
                         </div>
                         <div className="">
                             <ul className="footer_ul">
-                                <li className="txt">121 King Street Melbourne,
-                                    3000, Australia
+                                <li className="txt">III E, 7/10,, Nehru Nagar III, Ghaziabad, Uttar Pradesh, India 201001
                                 </li>
                                 <li>
                                     <a href="mailto:info@Cyberchip.com" className="txt">
@@ -69,7 +68,6 @@ function footer() {
                             </ul>
                         </div>
                     </div>
-
                 </div>
                 <div className="footer">
                     <div className="footer_title">
@@ -84,7 +82,7 @@ function footer() {
                             </button>
                         </div>
                         <div className="form-group">
-                            <input className="checkbox" type="checkbox" id="html" />
+                            <input className="checkbox" type="checkbox" id="checkbx" />
                             <label className="checkbox-details txt">I Agree to the Terms</label>
                         </div>
                     </div>

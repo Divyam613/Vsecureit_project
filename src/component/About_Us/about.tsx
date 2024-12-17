@@ -12,7 +12,7 @@ const About = (() => {
                                 </figure>
                             </div>
                         </div>
-                        <div className="">
+                        <div className="about_content">
                             <div className="who_we">
                                 <h5  className="we"> WHO WE ARE</h5>
                                 <h2 className='title'>Reduce Risk of Your
@@ -20,7 +20,7 @@ const About = (() => {
                                 </h2>
                             </div>
                             <div className="para_about">
-                                <p>Welcome to V-SecurIT Solutions, the leading computer and cyber security training provider in Delhi, Bharat. With a team of experienced professionals, we are committed to delivering high-quality training and education to help individuals and organizations stay ahead of cyber threats.
+                                <p className='para_content'>Welcome to V-SecurIT Solutions, the leading computer and cyber security training provider in Delhi, Bharat. With a team of experienced professionals, we are committed to delivering high-quality training and education to help individuals and organizations stay ahead of cyber threats.
                                 </p>
                                 <ul className=" list">
                                 Our comprehensive courses and hands-on training programs are designed to equip our students with the skills and knowledge needed to excel in the field of computer and cyber security. At V-SecurIT Solutions, we prioritize the success and security of our clients, and we are dedicated to providing top-notch training and support.

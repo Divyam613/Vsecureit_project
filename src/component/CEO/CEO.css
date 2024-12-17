@@ -1,37 +1,88 @@
-.prof{
-
+.prof {
     display: flex;
     gap: 100px;
     align-items: center;
 }
-.profile{
+
+.profile {
     background-color: rgb(9, 22, 80);
     background-image: url("../../../public/assets/dots-img.png");
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: center;
-    /* padding-bottom: 20px; */
     padding: 120px;
-
 }
-.prof_role{
+
+.prof_role {
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
     padding-bottom: 48px;
 }
 
-.profile_img{
+/* .profile_img {
     border-radius: 20px;
-}
+} */
 
-.profile_name{
+.profile_name {
     color: white;
     text-align: center;
     font-size: 24px;
 }
+.prof_img{
+    border-radius: 40px;
+}
 
-.tushar_sharma{
+.tushar_sharma {
     font-size: 18px;
     color: white;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .prof {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Reduce gap */
+    }
+
+    .profile {
+        padding: 60px; /* Reduce padding for mobile */
+    }
+
+    .prof_role {
+        font-size: 30px; /* Smaller font size */
+        padding-bottom: 24px; /* Adjust padding */
+    }
+
+    .profile_name {
+        font-size: 20px; /* Smaller font size */
+    }
+
+    .tushar_sharma {
+        font-size: 16px; /* Smaller font size */
+    }
+}
+
+/* Laptop styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .prof {
+        gap: 50px; /* Adjust gap for laptops */
+    }
+
+    .profile {
+        padding: 80px; /* Adjust padding for laptops */
+    }
+
+    .prof_role {
+        font-size: 40px; /* Adjust font size */
+        padding-bottom: 36px; /* Adjust padding */
+    }
+
+    .profile_name {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    .tushar_sharma {
+        font-size: 18px; /* Keep the same or adjust slightly */
+    }
 }
