@@ -23,11 +23,10 @@
     margin-bottom: 10px;
 }
 
-
 .left_card {
     position: relative;
     transition: 0.3s;
-    animation: mymove 0.4s ;
+    animation: mymove 0.4s;
 }
 
 .right_card {
@@ -38,15 +37,13 @@
     0% {
         transform: translateX(-2000px);
     }
-
     100% {
         transform: translateX(0px);
     }
 }
 
-
 .des_img {
-    transition: all .4s;
+    transition: all 0.4s;
 }
 
 .des_about {
@@ -62,6 +59,54 @@
 }
 
 .des_img:hover {
-    /* position: absolute; */
-    rotate: 10deg;
+    rotate: 10deg; /* Note: 'rotate' is not a valid CSS property; use 'transform: rotate(10deg);' instead */
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .workshop {
+        padding-bottom: 60px; /* Reduce padding for mobile */
+    }
+
+    .workshop_card {
+        flex-direction: column; /* Stack cards vertically on mobile */
+        gap: 20px; /* Reduce gap for mobile */
+    }
+
+    .left_card, .right_card {
+        width: 100%; /* Full width for cards on mobile */
+    }
+
+    .des_about {
+        bottom: 20px; /* Adjust position for mobile */
+        left: 20px; /* Adjust position for mobile */
+    }
+
+    .des_img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .media{
+        width: 92%;
+        margin-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .workshop {
+        padding-bottom: 80px; /* Adjust padding for tablets */
+    }
+
+    .workshop_card {
+        gap: 25px; /* Adjust gap for tablets */
+    }
+
+    .left_card, .right_card {
+        width: 45%; /* Adjust width for tablets */
+    }
+
+    .des_about {
+        bottom: 30px; /* Adjust position for tablets */
+        left: 30px; /* Adjust position for tablets */
+    }
 }

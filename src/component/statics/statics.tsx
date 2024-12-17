@@ -46,10 +46,14 @@ function Statics() {
                         Global Risk Mitigation: Secured critical infrastructures for Fortune 500 companies, reducing cyber attack risks by over 80%.
                         Innovative Encryption Protocols: Pioneered next-gen encryption methods to safeguard sensitive data across industries.
                         Comprehensive Security Training: Trained over 10,000 professionals in cyber defense strategies, strengthening global IT resilience.</span>
-                    <button className="btn_spcl">
-                        <Link to="/contact">Get Started</Link>
-                    </button>
+
                 </div>
+
+            </div>
+            <div className="btn_block">
+            <button className="btn_spcl">
+                <Link to="/contact">Get Started</Link>
+            </button>
             </div>
         </div>
     )

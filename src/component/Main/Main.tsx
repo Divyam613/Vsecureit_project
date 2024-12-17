@@ -40,7 +40,7 @@ const Main = () => {
                 </button>
               </div>
             </div>
-            <img src="./assets/banner-right-img.png" alt="banner" />
+            <img src="./assets/banner-right-img.png" alt="banner" className='hero_comp'/>
         </header>
       </div>
       <Partners />

@@ -17,7 +17,6 @@
     padding: 70px 14px 70px 10px;
 }
 .image{
-        size: 580*498;
         width: 580px;
         height: 490px;
 }
@@ -39,4 +38,74 @@
 }
 .list{
     padding-top: 25px;
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .row1 {
+        flex-direction: column; /* Stack items vertically */
+        margin: 0 20px; /* Reduce margin */
+        padding-right: 0; /* Remove padding */
+        gap: 20px; /* Reduce gap */
+    }
+
+    .container1 {
+        padding: 40px 10px; /* Adjust padding */
+    }
+
+    .image {
+        width: 100%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .title {
+        font-size: 20px; /* Smaller title font size */
+    }
+
+    .who_we {
+        font-size: 20px; /* Smaller font size */
+    }
+
+    .para_about, .we {
+        font-size: 16px; /* Smaller paragraph font size */
+    }
+    .about_content{
+        text-align: center;
+        padding: 0 10px ;
+    }
+    .para_content{
+        font-size: 15px;
+    }
+    .list{
+        font-size: 15px;
+    }
+}
+
+/* Laptop styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .row1 {
+        margin: 0 50px; /* Adjust margin for laptops */
+        gap: 50px; /* Adjust gap */
+    }
+
+    .container1 {
+        padding: 60px 14px; /* Adjust padding */
+    }
+
+    .image {
+        width: 80%; /* Make image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .title {
+        font-size: 40px; /* Adjust title font size */
+    }
+
+    .who_we {
+        font-size: 22px; /* Adjust font size */
+    }
+
+    .para_about, .we {
+        font-size: 18px; /* Adjust paragraph font size */
+    }
 }

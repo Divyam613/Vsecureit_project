@@ -42,16 +42,18 @@ const about = () => {
                     <Navbar />
                     <div className='about_para'>        
                         <h1 className='para_h1 '>Services</h1>
-                        <h4 className='para_h4'>Dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                        <h4 className='para_h4'>            Our comprehensive courses and hands-on training programs are designed to equip our students with the skills and knowledge needed to excel in the field of computer and cyber security. At V-SecurIT Solutions,
+                        we prioritize the success and security of our clients, and we are dedicated to providing top-notch training and support.</h4>
                     </div>
                 </div>
                 <Work/>
                 <Message/>
                 <Enquiry/>
+                <CEO />
                 <Footer/>
             </div>
             
-            <CEO />
+            
         </div>
     );
 };

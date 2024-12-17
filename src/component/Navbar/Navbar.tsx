@@ -1,12 +1,26 @@
 
 import { useNavigate, Link } from "react-router-dom";
 import "./navbar.css";
+import { useState, useEffect } from "react";
 
 const Navbar = (() => {
+   const [isMobile, setIsMobile] = useState(false);
    const navigate = useNavigate();
    const handlenavigate = () => {
       navigate("/")
    }
+   const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust the width as per your mobile breakpoint
+   }
+
+   useEffect(() => {
+      handleResize(); // Check on mount
+      window.addEventListener('resize', handleResize); // Add event listener for resize
+
+      return () => {
+         window.removeEventListener('resize', handleResize); // Cleanup on unmount
+      };
+   }, []);
 
    return (
       <header>
@@ -17,7 +31,12 @@ const Navbar = (() => {
                      <img src="./assets/Vsec_logo_white.png" alt="logo-img" className="img-fluid" />
                   </a>
                   <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                     <ul className="navbar-list">
+                     {isMobile ? (
+                        <a className="mobileview" onClick={() => setIsMobile(!isMobile)}>
+                           <img src="./assets/menu.svg" alt="" />
+                        </a>
+                     ):(
+                        <ul className="navbar-list">
                         <li className="nav-item active">
                            <Link to="/" className="nav-link text-white p-0" > Home </Link>
                         </li>
@@ -31,8 +50,11 @@ const Navbar = (() => {
                         <li className="nav-item">
                            <Link to="/team" className="nav-link text-white p-0" > Team </Link>
                         </li>
+                        {/* <button className="btn"> Contact us</button> */}
                         <button className="btn"  >Contact us</button>
                      </ul>
+                     )}
+                     
                   </div>
                </nav>
             </div>
