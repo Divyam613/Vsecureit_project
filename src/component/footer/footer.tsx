@@ -54,14 +54,14 @@ function footer() {
                             <ul className="footer_ul">
                                 <li className="txt">III E, 7/10,, Nehru Nagar III, Ghaziabad, Uttar Pradesh, India 201001
                                 </li>
-                                <li>
+{/*                                 <li>
                                     <a href="mailto:info@Cyberchip.com" className="txt">
                                         info@Cyberchip.com
                                     </a>
                                 </li>
                                 <li>
                                     <a href="tel:+123456789" className="txt">+1 23 45 6789</a>
-                                </li>
+                                </li> */}
                                 <li className=""><a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a></li>
                                 <li className=""><a href="https://twitter.com/?lang=en"><i className="fab fa-twitter"></i></a></li>
                                 <li className=""><a href="https://www.instagram.com/accounts/login/"><i className="fab fa-instagram"></i></a></li>
